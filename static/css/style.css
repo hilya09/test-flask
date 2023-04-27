@@ -1,0 +1,32 @@
+h1{
+    padding: 4px;
+}
+
+h4{
+    color: #2A2F4F;
+    background-color: #C9A7EB;
+    padding: 3px;
+}
+
+.menu {
+    text-align: center;
+    background-color: #C9A7EB;
+    font-size:18px;
+    padding-top: 16pt;
+}
+
+.menu a:hover {
+    background-color: #ECC9EE;
+}
+
+.menu button:hover {
+    background-color: #ECC9EE;
+}
+
+img {
+    border-radius: 50%;
+}
+
+.content{
+    margin: auto;
+}

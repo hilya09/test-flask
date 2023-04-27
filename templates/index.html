@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link href={{ url_for('static', filename='/css/style.css') }} rel="stylesheet" type="text/css">
+    <title>CV Hilya</title>
+
+    <body>
+        <div class="menu">
+            <button type="button" class="btn btn-light" onclick="fungsi1()">Start</button>
+            <a href="#satu" class="btn btn-light">Profil</a>
+            <a href="#dua" class="btn btn-light">Pendidikan</a>
+            <a href="#tiga" class="btn btn-light">Keahlian</a>
+            <a href="#empat" class="btn btn-light">Pengalaman</a>
+            <br><br>
+        </div>
+        <br><br>
+        <h1 align="center">Curriculum Vitae</h1>
+        <br>
+        <table align="center">
+            <tr><td><img src={{ url_for('static', filename='/images/profile-image.jpg') }} width="325px" height="250px"></td></tr>
+        </table>
+        <br><br>
+
+        <div class="col-sm-6 content">
+            <h4 id="satu">PROFIL</h4>
+            <table align="center">
+                <tr>
+                    <td width="1%">Nama</td>
+                    <td width="10%">: Hilya Anbiyani Fitri Muhyidin</td>
+                </tr>
+                <tr>
+                    <td width="1%">Tempat Lahir</td>
+                    <td width="10%">: Indonesia</td>
+                </tr>
+                <tr>
+                    <td width="1%">Alamat</td>
+                    <td width="10%">: Jawa Barat</td>
+                </tr>
+            </table>
+            <br>
+    
+            <h4 id="dua">PENDIDIKAN</h4>
+            <table align="center">
+                <tr>
+                    <td width="1%">Universitas</td>
+                    <td width="10%">: Universitas Pendidikan Indonesia</td>
+                </tr>
+                <tr>
+                    <td width="1%">Jurusan</td>
+                    <td width="10%">: Pendidikan Sistem dan Teknologi Informasi</td>
+                </tr>
+                <tr>
+                    <td width="1%">IPK</td>
+                    <td width="10%">: 3,7</td>
+                </tr>
+            </table>
+            <br>
+    
+            <h4 id="tiga">KEAHLIAN</h4>
+            <table align="center">
+                <tr>
+                    <td width="1%">Artificial Intellegent</td>
+                    <td width="10%">: Machine Learning, Deep Learning, CV, NLP, RL, DS</td>
+                </tr>
+                <tr>
+                    <td width="1%">Web Development</td>
+                    <td width="10%">: HTML, CSS, JavaScript, Bootstrap, Laravel</td>
+                </tr>
+            </table>
+            <br>
+    
+            <h4 id="empat">PENGALAMAN</h4>
+            <table align="center">
+                <tr>
+                    <td width="1%">Studi Independen </td>
+                    <td width="10%">: Orbit Future Academy Program AI Mastery Batch 4</td>
+                </tr>
+                <tr>
+                    <td width="1%">Magang</td>
+                    <td width="10%">: Diskominfo Purwakarta (2 bulan)</td>
+                </tr>
+            </table>
+            <br><br>
+        </div>
+    </body>
+
+    <!-- Ini adalah JavaScript -->
+	<script>
+		function fungsi1() {
+			alert("Halo Selamat Datang!");
+		}
+	</script>
+    
+    <footer>
+        <p align="center">
+        <font align="center">
+        <b>Copyright&copy; 2023</b> Created with HTML, CSS, JavaScript, Bootstrap</a>
+        </font>
+    </footer>
+</html>
